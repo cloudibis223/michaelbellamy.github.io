@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Michael Bellamy | Fine Art Photography</title>
+  <meta name="description" content="Michael Bellamy's fine art photography from Alaska's landscapes. A minimal, immersive showcase of nature's quiet majesty.">
+  <meta property="og:title" content="Michael Bellamy | Fine Art Photography" />
+  <meta property="og:image" content="https://cloudibis223.github.io/michaelbellamy.github.io/alaska1.jpg" />
+  <meta property="og:type" content="website" />
   <style>
     * {
       margin: 0;
@@ -57,6 +61,20 @@
       border-radius: 5px;
       font-size: 1.2rem;
     }
+    .scroll-cue {
+      position: absolute;
+      bottom: 1.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 2rem;
+      color: #ccc;
+      opacity: 0.6;
+      animation: bounce 2s infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translate(-50%, 0); }
+      50% { transform: translate(-50%, 10px); }
+    }
     .final {
       background-color: #000;
       color: #eee;
@@ -78,6 +96,11 @@
       font-style: italic;
       color: #aaa;
       margin-top: 1rem;
+    }
+    .final .contact {
+      color: #bbb;
+      font-size: 1rem;
+      margin-top: 0.5rem;
     }
     .final a {
       color: #ccc;
@@ -112,6 +135,7 @@
   <main>
     <section class="section">
       <div class="overlay">Southeast Alaska fjords in morning haze</div>
+      <div class="scroll-cue">↓</div>
     </section>
     <section class="section">
       <div class="overlay">Humpback whale diving off Juneau coast</div>
@@ -124,10 +148,10 @@
         In the unyielding silence of the wilderness, there exists a primal eloquence—a sublime orchestration of ice and light, sea and shadow, composed without audience yet aching for reverence. These photographs transcend representation: they are meditations on grandeur, distilled through patience and the reverent lens of solitude. Here, nature is not merely seen but encountered—as if each image were a whispered invocation of the elemental sublime.
       </p>
       <p>
-        For collector inquiries, private viewings, or editorial requests, please write to <a href="mailto:studio@michaelbellamy.art">studio@michaelbellamy.art</a>
+        For collector inquiries, private viewings, or editorial requests, please write to <a href="mailto:hello@michaelbellamy.art">hello@michaelbellamy.art</a>
       </p>
-      <p>865 245 0201</p>
       <div class="location">Studio based in Knoxville, Tennessee, USA</div>
+      <p class="contact">‪(865) 245-0201‬</p>
     </section>
   </main>
   <footer>
